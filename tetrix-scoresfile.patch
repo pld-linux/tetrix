@@ -1,0 +1,12 @@
+diff -Naur tetrix-2.2/tet.c tetrix-2.2.b/tet.c
+--- tetrix-2.2/tet.c	2003-12-29 21:29:29.000000000 +0100
++++ tetrix-2.2.b/tet.c	2008-08-09 01:51:49.000000000 +0200
+@@ -32,7 +32,7 @@
+ # define LLC	dispchars[4]	/* lower left corner	*/
+ # define LRC	dispchars[5]	/* lower right corner	*/
+ 
+-#define SCORE_FILE	"/usr/tmp/.TetScores"
++#define SCORE_FILE	"/var/games/tetrix.scores"
+ char ScoreString[SCORELEN];
+ struct ScoreStruct {
+ 	char Name[NAMELEN];
