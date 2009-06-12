@@ -1,10 +1,10 @@
 #
-Summary:	A curses-based clone of Tetris.
+Summary:	A curses-based clone of Tetris
 Summary(pl.UTF-8):	Klon gry Tetris typu roguelike.
 Name:		tetrix
 Version:	2.2
-Release:	0.1
-License:	GPL v. 2
+Release:	1
+License:	GPL v2
 Group:		Applications/Games
 Source0:	http://www.catb.org/~esr/tetrix/%{name}-%{version}.tar.gz
 # Source0-md5:	141390f40c9c03a9b54455e257e0eafc
@@ -19,7 +19,10 @@ Tetrix is a UNIX-hosted, curses-based clone of Tetris.
 
 %description -l pl.UTF-8
 Tetrix jest uniksowym klonem gry Tetris. Interface gry jest oparty o
-bibliotekę curses.
+bibliotekę curses. Tetrix używa aktywnego czekania, zatem główne
+przeznaczenie tego programu to testowanie zachowania komputera przy
+maksymalnym obciążeniu. Jeżeli po prostu chcesz pograć w tetris w
+konsoli, zainstaluj vitetris.
 
 %prep
 %setup -q
