@@ -1,0 +1,11 @@
+--- tetrix-2.3/Makefile~	2010-10-22 05:42:40.000000000 +0200
++++ tetrix-2.3/Makefile	2010-10-22 12:50:42.861170997 +0200
+@@ -14,7 +14,7 @@
+ INCS= tet.h
+ 
+ tetrix: $(OBJS) $(INCS)
+-	cc $(LFLAGS) $(OBJS) -lncurses -o tetrix
++	$(CC) $(CFLAGS) $(LFLAGS) $(OBJS) -o tetrix -lncurses -ltinfo
+ 
+ MoveR.o: MoveR.c tet.h
+ MoveL.o: MoveL.c tet.h
