@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Klon gry Tetris typu roguelike.
 Name:		tetrix
 Version:	2.3
 Release:	1
-License:	GPL v2
+License:	GPL v2+
 Group:		Applications/Games
 Source0:	http://www.catb.org/~esr/tetrix/%{name}-%{version}.tar.gz
 # Source0-md5:	3567667a52571ebd3c3829af66defb93
